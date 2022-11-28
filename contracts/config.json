@@ -1,4 +1,17 @@
 {
   "version": 1,
-  "networks": {}
+  "networks": {
+    "berkele": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/04-zkapp-browser-ui.json",
+      "fee": "0.1",
+      "smartContract": "Add"
+    },
+    "berkeley": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/berkeley.json",
+      "fee": "0.1",
+      "smartContract": "Add"
+    }
+  }
 }
